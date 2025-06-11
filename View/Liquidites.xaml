@@ -1,0 +1,83 @@
+﻿<UserControl x:Class="BFMTools.Views.Liquidites"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Fichiers Créditeurs -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" VerticalAlignment="Top" Margin="0,10,0,0">
+            <Button x:Name="Btn_Liquidites_Crediteurs_File_Load" Content="Fichiers Créditeurs" Click="Btn_Liquidites_Crediteurs_File_Load_Click"/>
+            <TextBlock x:Name="txt_xls_crediteur_file_path" Text="Path to file" Foreground="White" VerticalAlignment="Center" Margin="15,0,0,0"/>
+        </StackPanel>
+
+        <!-- Fichiers Débiteurs -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Top" Margin="0,10,0,0">
+            <Button x:Name="Btn_Liquidites_Débiteurs_File_Load" Content="Fichiers Débiteurs" Click="Btn_Liquidites_Débiteurs_File_Load_Click"/>
+            <TextBlock x:Name="txt_xls_debiteur_file_path" Text="Path to file" Foreground="White" VerticalAlignment="Center" Margin="15,0,0,0"/>
+        </StackPanel>
+
+        <!-- Titre Client -->
+        <TextBlock Grid.Row="2" Text="Client info"
+           FontSize="16" FontWeight="Bold"
+           Foreground="Orange"
+           Margin="0,30,0,5"/>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal" VerticalAlignment="Top" Margin="0,5,0,0">
+            <Label Content="Nom du client :" Foreground="White" VerticalAlignment="Center"/>
+            <TextBox x:Name="txt_client_name" Width="250" Height="30" Margin="10,0,0,0" />
+        </StackPanel>
+
+        <!-- Titre Report -->
+        <TextBlock Grid.Row="4" Text="Report"
+                   FontSize="16" FontWeight="Bold"
+                   Foreground="Orange"
+                   Margin="0,30,0,5"/>
+
+        <!-- Données Report -->
+        <StackPanel Grid.Row="5" Orientation="Horizontal" VerticalAlignment="Top" Margin="0,5,0,0">
+            <Label Content="Report Date :" Foreground="White" VerticalAlignment="Center"/>
+            <DatePicker x:Name="Date_report_date" Width="180" Height="30" Margin="10,0,0,0" SelectedDateFormat="Short" DisplayDate="2025-06-04" IsTodayHighlighted="True" />
+
+            <Label Content="Montant du report :" Foreground="White" VerticalAlignment="Center" Margin="20,0,0,0"/>
+            <TextBox x:Name="txt_report_amount" Width="180" Height="30" Margin="10,0,0,0"/>
+        </StackPanel>
+
+        <!-- Titre Charges -->
+        <TextBlock Grid.Row="6" Text="Charges"
+                   FontSize="16" FontWeight="Bold"
+                   Foreground="Orange"
+                   Margin="0,30,0,5"/>
+
+        <!-- Données Charges -->
+        <StackPanel Grid.Row="7" Orientation="Horizontal" VerticalAlignment="Top" Margin="0,5,0,0">
+            <Label Content="Salaire mensuel :" Foreground="White" VerticalAlignment="Center"/>
+            <TextBox x:Name="txt_salary_amount" Width="180" Height="30" Margin="10,0,0,0"/>
+            <Label Content="13ème salaire :" Foreground="White" VerticalAlignment="Center" Margin="20,0,0,0"/>
+            <CheckBox x:Name="chk_13th_salary" Content="" VerticalAlignment="Center" Margin="10,0,0,0" IsChecked="True"/>
+        </StackPanel>
+        <StackPanel Grid.Row="8" Orientation="Horizontal" VerticalAlignment="Top" Margin="0,5,0,0">
+            <Label Content="Charges redondantes :" Foreground="White" VerticalAlignment="Center"/>
+            <TextBox x:Name="txt_reccuring_amount" Width="180" Height="30" Margin="10,0,0,0"/>
+            <Label Content="Charges date :" Foreground="White" VerticalAlignment="Center" Margin="20,0,0,0"/>
+            <DatePicker x:Name="Date_Recurring_date" Width="180" Height="30" Margin="10,0,0,0" SelectedDateFormat="Short" DisplayDate="2025-06-04" IsTodayHighlighted="True"/>
+
+        </StackPanel>
+
+        <!-- Bouton Calcul -->
+        <StackPanel Grid.Row="9" VerticalAlignment="Top" Margin="0,30,0,0">
+            <Button x:Name="Btn_Report_Creation" Content="Calculate" Width="100" Height="30" HorizontalAlignment="Right" Click="Btn_Report_Creation_Click"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Pictures\Mauceri_Logo_square_white.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Pictures\Mauceri_Logo_square_white.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Pictures\Mauceri_Logo_square_white.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Pictures\Mauceri_Logo_square_white.png" />
+  </ItemGroup>
+
+</Project>
