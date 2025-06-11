@@ -30,5 +30,9 @@ namespace BFMTools
         {
             ContentArea.Content = new Liquidites();
         }
+        private void Settings_Click(object sender, RoutedEventArgs e)
+        {
+            ContentArea.Content = new Settings();
+        }
     }
 }

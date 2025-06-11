@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BFMTools")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+280686a5d49e20b77d27623a4de421a2f3ccfe1a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eec8b5cbd51c0c318323d88c8fd84dc3e2a97378")]
 [assembly: System.Reflection.AssemblyProductAttribute("BFMTools")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BFMTools")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

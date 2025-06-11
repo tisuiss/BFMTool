@@ -21,4 +21,10 @@
     <Resource Include="Pictures\Mauceri_Logo_square_white.png" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="View\Settings.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
 </Project>
