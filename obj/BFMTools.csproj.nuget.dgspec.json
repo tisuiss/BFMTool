@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\OLDBFMTool\\BFMTools\\BFMTools.csproj": {}
+    "C:\\Dev\\BFMTool_App\\BFMTool\\BFMTools.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\OLDBFMTool\\BFMTools\\BFMTools.csproj": {
+    "C:\\Dev\\BFMTool_App\\BFMTool\\BFMTools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\OLDBFMTool\\BFMTools\\BFMTools.csproj",
+        "projectUniqueName": "C:\\Dev\\BFMTool_App\\BFMTool\\BFMTools.csproj",
         "projectName": "BFMTools",
-        "projectPath": "C:\\Dev\\OLDBFMTool\\BFMTools\\BFMTools.csproj",
+        "projectPath": "C:\\Dev\\BFMTool_App\\BFMTool\\BFMTools.csproj",
         "packagesPath": "C:\\Users\\maug\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\OLDBFMTool\\BFMTools\\obj\\",
+        "outputPath": "C:\\Dev\\BFMTool_App\\BFMTool\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

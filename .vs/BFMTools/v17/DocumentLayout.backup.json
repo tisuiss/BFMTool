@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Dev\\BFMTool\\BFMTool\\BFMTools\\",
+  "WorkspaceRootPath": "C:\\Dev\\OLDBFMTool\\BFMTools\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{575E51F6-9098-457B-83E1-6F33AD76E01B}|BFMTools.csproj|c:\\dev\\bfmtool\\bfmtool\\bfmtools\\view\\liquidites.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{575E51F6-9098-457B-83E1-6F33AD76E01B}|BFMTools.csproj|c:\\dev\\oldbfmtool\\bfmtools\\view\\liquidites.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{575E51F6-9098-457B-83E1-6F33AD76E01B}|BFMTools.csproj|solutionrelative:view\\liquidites.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{575E51F6-9098-457B-83E1-6F33AD76E01B}|BFMTools.csproj|c:\\dev\\bfmtool\\bfmtool\\bfmtools\\view\\liquidites.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{575E51F6-9098-457B-83E1-6F33AD76E01B}|BFMTools.csproj|c:\\dev\\oldbfmtool\\bfmtools\\view\\liquidites.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{575E51F6-9098-457B-83E1-6F33AD76E01B}|BFMTools.csproj|solutionrelative:view\\liquidites.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{575E51F6-9098-457B-83E1-6F33AD76E01B}|BFMTools.csproj|c:\\dev\\bfmtool\\bfmtool\\bfmtools\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{575E51F6-9098-457B-83E1-6F33AD76E01B}|BFMTools.csproj|c:\\dev\\oldbfmtool\\bfmtools\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{575E51F6-9098-457B-83E1-6F33AD76E01B}|BFMTools.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -36,9 +36,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Liquidites.xaml.cs",
-              "DocumentMoniker": "C:\\Dev\\BFMTool\\BFMTool\\BFMTools\\View\\Liquidites.xaml.cs",
+              "DocumentMoniker": "C:\\Dev\\OLDBFMTool\\BFMTools\\View\\Liquidites.xaml.cs",
               "RelativeDocumentMoniker": "View\\Liquidites.xaml.cs",
-              "ToolTip": "C:\\Dev\\BFMTool\\BFMTool\\BFMTools\\View\\Liquidites.xaml.cs",
+              "ToolTip": "C:\\Dev\\OLDBFMTool\\BFMTools\\View\\Liquidites.xaml.cs",
               "RelativeToolTip": "View\\Liquidites.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -49,9 +49,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Dev\\BFMTool\\BFMTool\\BFMTools\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Dev\\OLDBFMTool\\BFMTools\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Dev\\BFMTool\\BFMTool\\BFMTools\\MainWindow.xaml",
+              "ToolTip": "C:\\Dev\\OLDBFMTool\\BFMTools\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-04T06:20:52.816Z"
@@ -60,9 +60,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Liquidites.xaml",
-              "DocumentMoniker": "C:\\Dev\\BFMTool\\BFMTool\\BFMTools\\View\\Liquidites.xaml",
+              "DocumentMoniker": "C:\\Dev\\OLDBFMTool\\BFMTools\\View\\Liquidites.xaml",
               "RelativeDocumentMoniker": "View\\Liquidites.xaml",
-              "ToolTip": "C:\\Dev\\BFMTool\\BFMTool\\BFMTools\\View\\Liquidites.xaml",
+              "ToolTip": "C:\\Dev\\OLDBFMTool\\BFMTools\\View\\Liquidites.xaml",
               "RelativeToolTip": "View\\Liquidites.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-03T07:41:53.746Z"
