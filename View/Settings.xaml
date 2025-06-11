@@ -1,12 +1,6 @@
 ﻿<UserControl x:Class="BFMTools.View.Settings"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:md="http://schemas.lepo.co/wpfui/2022/xaml/markdown"
-             mc:Ignorable="d"
-             d:DesignHeight="450"
-             d:DesignWidth="800">
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <Grid>
         <DataGrid x:Name="ClientsGrid" AutoGenerateColumns="False" ItemsSource="{Binding Clients}">
