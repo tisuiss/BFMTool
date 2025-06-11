@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Controls;
 
-namespace BFMTools.Views
+namespace BFMTools.View
 {
     /// <summary>
     /// Interaction logic for Settings.xaml
