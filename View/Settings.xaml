@@ -12,7 +12,7 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <Button Content="Save"/>
+        <Button Content="Save" Click="SaveSettings_Click"/>
         
     </Grid>
 </UserControl>
