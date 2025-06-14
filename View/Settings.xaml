@@ -1,18 +1,62 @@
 ﻿<UserControl x:Class="BFMTools.Views.Settings"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit">
 
-    <Grid>
-        <DataGrid x:Name="ClientsGrid" AutoGenerateColumns="False" ItemsSource="{Binding Clients}">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="Nom" Binding="{Binding Name}" />
-                <DataGridTextColumn Header="Logo" Binding="{Binding LogoPath}" />
-                <DataGridTextColumn Header="Couleur Primaire" Binding="{Binding PrimaryColor}" />
-                <DataGridTextColumn Header="Couleur Secondaire" Binding="{Binding SecondaryColor}" />
-            </DataGrid.Columns>
-        </DataGrid>
+    <StackPanel Margin="20" Width="500">
 
-        <Button Content="Save" Click="SaveSettings_Click"/>
-        
-    </Grid>
+        <!-- ComboBox de sélection -->
+        <TextBlock Text="Sélectionner un client existant" Margin="0,0,0,5"/>
+        <ComboBox x:Name="ClientComboBox"
+                  DisplayMemberPath="Name"
+                  SelectedItem="{Binding SelectedClient, Mode=TwoWay}"
+                  ItemsSource="{Binding Clients}"
+                  SelectionChanged="ClientComboBox_SelectionChanged"
+                  Margin="0,0,0,15"/>
+
+        <!-- Champ Nom -->
+        <StackPanel Margin="0,0,0,10">
+            <TextBlock Text="Nom du client"/>
+            <TextBox x:Name="NameBox" Width="300"/>
+            <TextBlock Text="Friendly Name"/>
+            <TextBox x:Name="FriendlyNameBox" Width="300"/>
+        </StackPanel>
+
+        <!-- Champ Logo -->
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10" VerticalAlignment="Center">
+            <StackPanel Width="300">
+                <TextBlock Text="Logo (URL)"/>
+                <TextBox x:Name="LogoBox" Width="280" TextChanged="LogoBox_TextChanged"/>
+            </StackPanel>
+
+            <Border BorderBrush="Gray" BorderThickness="1" Width="100" Height="100" Margin="10,20,0,0">
+                <Image x:Name="LogoPreview" Stretch="Uniform"/>
+            </Border>
+        </StackPanel>
+
+        <!-- Couleur principale -->
+        <StackPanel Orientation="Vertical" Margin="0,0,0,10">
+            <TextBlock Text="Couleur principale (Menu)"/>
+            <xctk:ColorPicker x:Name="Color1Box"
+                              Width="200"
+                              SelectedColorChanged="Color1Picker_SelectedColorChanged"
+                              UsingAlphaChannel="False"/>
+        </StackPanel>
+
+        <!-- Couleur secondaire -->
+        <StackPanel Orientation="Vertical" Margin="0,0,0,10">
+            <TextBlock Text="Couleur secondaire (tableau)"/>
+            <xctk:ColorPicker x:Name="Color2Box"
+                              Width="200"
+                              SelectedColorChanged="Color2Picker_SelectedColorChanged"
+                              UsingAlphaChannel="False"/>
+        </StackPanel>
+
+        <!-- Boutons -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,10,0,0">
+            <Button Content="Ajouter" Width="100" Click="AddClient_Click" Margin="0,0,10,0"/>
+            <Button Content="Modifier" Width="100" Click="ModifyClient_Click"/>
+        </StackPanel>
+
+    </StackPanel>
 </UserControl>

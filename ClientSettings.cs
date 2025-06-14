@@ -9,6 +9,7 @@ namespace BFMTools
     public class ClientSettings
     {
         public string Name { get; set; }
+        public string FriendlyName { get; set; }
         public string LogoPath { get; set; }
         public string PrimaryColor { get; set; }
         public string SecondaryColor { get; set; }

@@ -36,8 +36,46 @@
 
         <StackPanel Grid.Row="3" Orientation="Horizontal" VerticalAlignment="Top" Margin="0,5,0,0">
             <Label Content="Nom du client :" Foreground="White" VerticalAlignment="Center"/>
-            <TextBox x:Name="txt_client_name" Width="250" Height="30" Margin="10,0,0,0" />
+            <ComboBox   x:Name="cmb_client_name"
+                        Width="200"
+                        DisplayMemberPath="Name"
+                        SelectionChanged="cmb_client_name_SelectionChanged"
+                        ItemsSource="{Binding Clients}" 
+                        Margin="8"/>
+            <Grid Margin="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Infos Client -->
+                <StackPanel Grid.Column="0" Margin="20,0,0,0" Width="300">
+                    <TextBlock Text="Friendly name :" FontWeight="Bold"/>
+                    <TextBlock x:Name="txtfriendlyName" Margin="0,0,0,10"/>
+
+                    <TextBlock Text="Logo path :" FontWeight="Bold"/>
+                    <TextBlock x:Name="txtLogoPath" Margin="0,0,0,10"/>
+
+                    <TextBlock Text="Primary color :" FontWeight="Bold"/>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                        <TextBlock x:Name="txtPrimaryColor" VerticalAlignment="Center"/>
+                        <Rectangle x:Name="rectPrimaryColor" Width="20" Height="20" Margin="10,0,0,0" Stroke="Black"/>
+                    </StackPanel>
+
+                    <TextBlock Text="Secondary color :" FontWeight="Bold"/>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock x:Name="txtSecondaryColor" VerticalAlignment="Center"/>
+                        <Rectangle x:Name="rectSecondaryColor" Width="20" Height="20" Margin="10,0,0,0" Stroke="Black"/>
+                    </StackPanel>
+                </StackPanel>
+
+                <!-- Aperçu du logo -->
+                <Border Grid.Column="1" Width="100" Height="100" Margin="20,0,0,0" BorderBrush="Gray" BorderThickness="1">
+                    <Image x:Name="imgClientLogo" Stretch="Uniform"/>
+                </Border>
+            </Grid>
         </StackPanel>
+
 
         <!-- Titre Report -->
         <TextBlock Grid.Row="4" Text="Report"

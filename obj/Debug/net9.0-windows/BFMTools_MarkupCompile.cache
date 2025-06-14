@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Dev\BFMTool\BFMTool\BFMTools\obj\Debug\net9.0-windows\
+C:\Dev\BFMTool_App\BFMTool\obj\Debug\net9.0-windows\
 BFMTools
 none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP
-C:\Dev\BFMTool\BFMTool\BFMTools\App.xaml
-31771069616
+C:\Dev\BFMTool_App\BFMTool\App.xaml
+4489849114
 1-1015681787
-6-249992792
-2001031969389
-MainWindow.xaml;View\Home.xaml;View\Liquidites.xaml;
+9-2073865146
+205-968674405
+MainWindow.xaml;View\Home.xaml;View\Liquidites.xaml;View\Settings.xaml;
 
 False
 

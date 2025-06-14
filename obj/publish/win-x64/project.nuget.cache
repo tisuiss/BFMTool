@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "L3VMIFRERx4=",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\BFMTool_App\\BFMTool\\BFMTools.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maug\\.nuget\\packages\\extended.wpf.toolkit\\4.7.25104.5739\\extended.wpf.toolkit.4.7.25104.5739.nupkg.sha512",
+    "C:\\Users\\maug\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.3\\microsoft.net.illink.tasks.9.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

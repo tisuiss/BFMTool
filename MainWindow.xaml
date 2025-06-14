@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:BFMTools"
         mc:Ignorable="d"
         Title="BFM Tool" 
-        Height="590" 
+        Height="790" 
         Width="1200"
         Background="Transparent"
         ThemeMode="Dark">
@@ -68,7 +68,7 @@
                 <Border CornerRadius="5" Padding="10" Margin="0 0 0 -20">
                     <StackPanel>
                         <TextBlock Text="BFM Tool" FontSize="30" FontWeight="ExtraBold" Foreground="Orange" />
-                        <TextBlock Text="v1.0.0" FontSize="22" Foreground="Orange" FontWeight="Bold" HorizontalAlignment="Right"/>
+                        <TextBlock Text="v1.1.0" FontSize="22" Foreground="Orange" FontWeight="Bold" HorizontalAlignment="Right"/>
                     </StackPanel>
                 </Border>
 
